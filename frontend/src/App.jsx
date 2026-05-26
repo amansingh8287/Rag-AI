@@ -33,7 +33,7 @@ export default function AdvancedRagChatbot() {
     try {
       // API CALL
 
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch(" https://ragbase-backend.onrender.com", {
         method: "POST",
 
         headers: {
