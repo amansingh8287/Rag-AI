@@ -33,7 +33,7 @@ export default function AdvancedRagChatbot() {
     try {
       // API CALL
 
-      const response = await fetch(" https://ragbase-backend.onrender.com", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/chat`, {
         method: "POST",
 
         headers: {
